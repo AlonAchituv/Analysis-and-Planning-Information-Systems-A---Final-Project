@@ -6,7 +6,6 @@ This project focuses on developing an automated information system for generatin
 
 ## Key Features
 
-- **Interactive Dashboard**: Provides an intuitive user interface to manage guest lists and generate seating plans.
 - **Automated Guest Seating**: Uses a linear programming algorithm to assign guests to tables efficiently.
 - **Data Input and Categorization**: Users can input guest lists, categorize guests, and define constraints.
 - **Optimization Algorithm**: Minimizes the number of tables used while maintaining guest preferences.
