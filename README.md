@@ -6,6 +6,7 @@ This project focuses on developing an automated information system for generatin
 
 ## Key Features
 
+- **Interactive Dashboard**: Provides an intuitive user interface to manage guest lists and generate seating plans.
 - **Automated Guest Seating**: Uses a linear programming algorithm to assign guests to tables efficiently.
 - **Data Input and Categorization**: Users can input guest lists, categorize guests, and define constraints.
 - **Optimization Algorithm**: Minimizes the number of tables used while maintaining guest preferences.
@@ -23,12 +24,17 @@ This project focuses on developing an automated information system for generatin
 
 ## How to Use
 
-1. **Register/Login**: Create an account or log in to access the system.
-2. **Upload Guest List**: Input guest details and categorize them.
-3. **Define Constraints**: Set the maximum number of guests per table.
-4. **Generate Seating Plan**: Click the button to run the algorithm.
-5. **Review & Export**: View the optimized seating arrangement and download it as an Excel file.
-6. **Make Adjustments**: Modify guest information and rerun the process if needed.
+1. **Download** ZIP file containing all needed files for running the system.
+2. **Extract** files to a folder.
+3. **Open SQL Server Management Studio** ([Download Link](https://aka.ms/ssmsfullsetup)).
+4. **Create a new database** named `CANN`.
+5. **Execute SQL Query**: Paste the text from the 'query' file into a new query to create the necessary tables.
+6. **Save** the database.
+7. **Open `app.py`** with a development environment software (PyCharm recommended).
+8. **Ensure dependencies**: Make sure all necessary libraries are installed.
+9. **Configure Server**: Change `SERVER=XXX` to your PC name under 'Your server instance' (line 29).
+10. **Run the Code**.
+11. **Access the System**: Open `main.html` and use the system as needed.
 
 ## Requirements
 
@@ -36,15 +42,15 @@ This project focuses on developing an automated information system for generatin
 - Internet connection
 - SQL Server for database management
 - Python with the following libraries:
-    - flask
-    - pyodbc
-    - bcrypt
-    - pulp
-    - threading
-    - io
-    - os
-    - openpyxl
-    - pandas
+  - flask
+  - pyodbc
+  - bcrypt
+  - pulp
+  - threading
+  - io
+  - os
+  - openpyxl
+  - pandas
 
 ## Authors
 
