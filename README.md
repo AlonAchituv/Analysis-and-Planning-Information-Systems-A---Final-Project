@@ -1,0 +1,2 @@
+# Analysis-and-Planning-Information-Systems-A---Final-Project
+The final project for 'Analysis and Planning of Information Systems A' - A system that automates seating arrangements for events like weddings using a linear programming algorithm. Users enter a guest list and table capacity, and the system quickly generates an optimized seating plan, making the process much faster than manual planning.
